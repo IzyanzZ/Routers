@@ -11,12 +11,15 @@ Routers Easy Routing Systems
 ```
 <?php
 
+
 route("/", function() {
   return view("welcome");
 })
 
 $action = $_SERVER["REQUEST_URI];
 dispatch($action);
+
+?>
 ```
 
 
