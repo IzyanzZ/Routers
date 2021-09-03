@@ -1,0 +1,7 @@
+{
+    "name": "axonix/router",
+    "description": "Simple Routing System",
+    "require": {
+        "php": ">=7.4"
+    }
+}
